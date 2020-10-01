@@ -1,2 +1,42 @@
 /* Move your styles here when you're ready to clean up your HTML file */
 /* Don't forget to link to this file in your HTML, otherwise your styles won't show up! */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    color: #fff;
+    font-family: 'Flamenco', cursive;
+    
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/h1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     height: 100vh;  
+}
+
+.clear-fix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.logo{
+    height: 220px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+    
+}
